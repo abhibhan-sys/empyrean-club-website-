@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(135deg, #E0E7FF, #BFDBFE);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #3B82F6;
+}
+
+h2 {
+  color: #1E3A8A;
+  text-align: center;
+  padding: 10px;
+}
+
+header {
+  background: linear-gradient(135deg, #E0E7FF, #BFDBFE);
+  padding: 20px 0;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #1E3A8A;
+  margin: 10px 0;
+}
+
+#about {
+  padding: 20px;
+  text-align: center;
+  background: #E0E7FF;
+}
+
+#about em {
+  color: #1E3A8A;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: center;
+  color: #1E3A8A;
+  padding: 20px;
+}
+
+.photo-placeholder {
+  width: 150px;
+  height: 150px;
+  background: #E0E7FF;
+  margin: 0 auto 10px;
+}
+
+#gallery {
+  padding: 20px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.photo-item {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#connect {
+  padding: 20px;
+  background: #BFDBFE;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: #1E3A8A;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.social-links a i {
+  margin-right: 5px;
+  color: #3B82F6;
+}
+
+.social-links a:hover {
+  color: #FFFFFF;
+}
